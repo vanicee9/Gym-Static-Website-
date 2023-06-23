@@ -1,0 +1,80 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg') ;
+    height:800px;
+}
+.left{
+
+   /* border: 2px solid  green  ; */
+   color:white;
+   display:inline-block;   /*Inline block ilsiye kyuki yeh poori space le rha tha but m chahti hu isko left me aur block isliye kyuki isme width and all set karn padega */
+   position:absolute;
+   top:20px;
+   left:60px;
+}
+.left img{
+    width:60px;
+    /* filter:invert(100%); */
+}
+.mid{
+    display:block;
+    width:33%;
+    margin: 20px auto;
+    
+    
+    /* border: 2px solid green; */
+    color:white;
+}
+.right{
+    position:absolute;
+    top:20px;
+    right:34px;
+    /* border: 2px solid green; */
+    color:white;
+    display:inline-block;
+
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:16px;
+}
+.navbar li a{
+    color:white;
+    text-decoration:none;
+    padding:12px 8px;
+}
+.navbar li a:hover {
+    text-decoration:Underline ;
+    color:rgb(243, 149, 149);
+}
+.btn{
+    margin:0px 9px;
+    background-color: black;
+    color:white;
+    padding-left: 4px;
+    padding-right:4px;
+    border:2px solid grey;
+    border-radius:5px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(72, 66, 66);
+}
+.container{
+    color:white;
+    /* border:2px solid; */
+    margin:70px 661px;
+    padding:31px 102px 72px 105px ;
+    width:300px;
+    border-radius: 2px;
+    height:200px;
+    border-radius: 10px;
+    display:block;
+}
+.submit{
+    border-radius:100px;
+}
